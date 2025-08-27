@@ -26,9 +26,10 @@ public class metodopunto2 {
                 System.out.println("-----------------------------");
                 totalCantidad += m[i][j].getCantidad_Producto();
             }
-            System.out.println();
-            System.out.println("Total Cantidad de Productos: " + totalCantidad);
+            
         }
+        System.out.println();
+            System.out.println("Total Cantidad de Productos: " + totalCantidad);
     }
 
 
