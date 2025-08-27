@@ -22,7 +22,7 @@ public class metodopunto2 {
         for (int i = 0; i < m.length; i++) {
             for (int j = 0; j < m.length; j++) {
                 System.out.println("Nombre del Producto: " + m[i][j].getNombre_Producto());
-                System.out.println("Cantidad del Producto: " );
+                System.out.println("Cantidad del Producto: " + m[i][j].getCantidad_Producto());
                 System.out.println("-----------------------------");
                 totalCantidad += m[i][j].getCantidad_Producto();
             }
