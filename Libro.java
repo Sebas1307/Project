@@ -7,5 +7,21 @@ public class Libro {
     Scanner sc = new Scanner(System.in);
     
 
-    
+    public Libro libroMasCaro(Libro[][] libros){
+
+        Libro libroMasCaro = libros [0][0];
+
+        for (int i = 0; i < libros.length; i++) {
+            for (int j = 0; j < libros[i].length; j++) {
+                if (libros[i][j].precio > libroMasCaro.precio) {
+                     
+                    libroMasCaro = libros[i][j];
+                    
+                }
+            }
+            
+        }
+        return libroMasCaro;
+
+    }
 }
